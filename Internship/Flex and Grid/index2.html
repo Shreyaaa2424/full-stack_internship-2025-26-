@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+
+    .box1 {
+        z-index: 2 ;
+        background-color: red;
+        top: 50px;
+        left: 50px;
+    }
+
+    .box2{
+        z-index: 1 ;
+        background-color: green;
+        top: 100px;
+        left: 100px;
+    }
+</style>
+
+<body>
+
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+
+     <!-- here higher the z-index values it will prioritize content and it comes to the first-->
+
+</body>
+
+</html>
